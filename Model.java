@@ -169,7 +169,7 @@ public class Model
 		// Check if any missles collide with the player.
 		synchronized(missles)
 		{
-			/*for (Missle missle : missles)
+			for (Missle missle : missles)
 			{
 				if (missle.overlaps(player))
 				{
@@ -178,7 +178,7 @@ public class Model
 					if (player.getHealth() == 0)
 						game.death();
 				}
-			}*/
+			}
 		}
 		
 		// Check if any beams collide with either enemies or the boss.
