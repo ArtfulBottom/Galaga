@@ -1,5 +1,5 @@
 JC = javac
-JVM = $(JAVA_HOME)
+JVM = java
 .SUFFIXES: .java .class
 .java.class: 
 	$(JC) $*.java
